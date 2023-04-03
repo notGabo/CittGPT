@@ -23,8 +23,7 @@ Este proyecto esta utilizando las librerias de [OpenAI Python](https://github.co
 1. Ve hacia https://beta.openai.com/account/api-keys, genera una nueva api key. Esta key ira en `OPENAI_API_KEY` dentro del archivo .env
 1. Crea una nueva aplicacion en https://discord.com/developers/applications
 1. Ve hacia la pestaña de bot y clickea en "Add Bot"
-    - Clickea en "Reset Token", este token deberas insertarlo en `DISCORD_BOT_TOKEN` dentro del archivo .env1
-    - Disable "Public Bot" unless you want your bot to be visible to everyone
+    - Clickea en "Reset Token", este token deberas insertarlo en `DISCORD_BOT_TOKEN` dentro del archivo .env
     - Desabilita el ticket en "Public BOT", a no ser que quieras que tu bot sea visible para todo el mundo
     - Habilita "Messsage Content Intent" en "Privileged Gateway Intents"
 1. Ve hacia la pestaña de OAuth2, copia tu "Client ID", y ponlo en `DISCORD_CLIENT_ID` dentro del archivo .env
