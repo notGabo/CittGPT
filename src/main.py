@@ -39,7 +39,7 @@ tree = discord.app_commands.CommandTree(client)
 
 @client.event
 async def on_ready():
-    logger.info(f"We have logged in as {client.user}. Invite URL: {BOT_INVITE_URL}")
+    logger.info(f"El bot se ha logueado como {client.user}. URL invitacion: {BOT_INVITE_URL}")
     completion.MY_BOT_NAME = client.user.name
     completion.MY_BOT_EXAMPLE_CONVOS = []
     for c in EXAMPLE_CONVOS:
